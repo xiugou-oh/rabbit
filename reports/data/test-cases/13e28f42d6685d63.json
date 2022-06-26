@@ -1,0 +1,99 @@
+{
+  "uid" : "13e28f42d6685d63",
+  "name" : "test_userLogin[config0-caseInfo0]",
+  "fullName" : "testCases.test_nanSheng.Test_nanSheng#test_userLogin",
+  "historyId" : "53ce73b13aa3c2c1850e07ea276bfcd0",
+  "time" : {
+    "start" : 1651043059061,
+    "stop" : 1651043059326,
+    "duration" : 265
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ('$csv{validate_code}' == 404)",
+  "statusTrace" : "self = <testCases.test_nanSheng.Test_nanSheng object at 0x000002377C18C040>\ncaseInfo = {'data': {'name': '$csv{data_name}', 'password': '$csv{data_password}'}, 'method': 'post', 'name': '$csv{name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': 'data/test_userLogin.csv'}, ...}\nconfig = {'base': {'base_url': 'http://www.nanshengbbs.top'}}\n\n    @pytest.mark.parametrize('caseInfo', read_caseInfo_yaml('test_userLogin.yml'))\n    @pytest.mark.parametrize('config', read_config_yaml('config.yaml'))\n    def test_userLogin(self, caseInfo, config):\n        name = caseInfo['name']\n        print(config['base']['base_url'])\n        print(caseInfo['url'])\n        url = config['base']['base_url'] + caseInfo['url']\n        method = caseInfo['method']\n        data = caseInfo['data']\n        validate = caseInfo['validate']\n        result = send_request(method, url, data=data)\n        logger.info(f'{name}:{result.text}')\n>       assert validate['code'] == result.json()['code'] and validate['msg'] == result.json()['msg']\nE       AssertionError: assert ('$csv{validate_code}' == 404)\n\ntestCases\\test_nanSheng.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1651043059060,
+      "stop" : 1651043059060,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ('$csv{validate_code}' == 404)",
+    "statusTrace" : "self = <testCases.test_nanSheng.Test_nanSheng object at 0x000002377C18C040>\ncaseInfo = {'data': {'name': '$csv{data_name}', 'password': '$csv{data_password}'}, 'method': 'post', 'name': '$csv{name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': 'data/test_userLogin.csv'}, ...}\nconfig = {'base': {'base_url': 'http://www.nanshengbbs.top'}}\n\n    @pytest.mark.parametrize('caseInfo', read_caseInfo_yaml('test_userLogin.yml'))\n    @pytest.mark.parametrize('config', read_config_yaml('config.yaml'))\n    def test_userLogin(self, caseInfo, config):\n        name = caseInfo['name']\n        print(config['base']['base_url'])\n        print(caseInfo['url'])\n        url = config['base']['base_url'] + caseInfo['url']\n        method = caseInfo['method']\n        data = caseInfo['data']\n        validate = caseInfo['validate']\n        result = send_request(method, url, data=data)\n        logger.info(f'{name}:{result.text}')\n>       assert validate['code'] == result.json()['code'] and validate['msg'] == result.json()['msg']\nE       AssertionError: assert ('$csv{validate_code}' == 404)\n\ntestCases\\test_nanSheng.py:24: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cba9d4576fdeb340",
+      "name" : "log",
+      "source" : "cba9d4576fdeb340.txt",
+      "type" : "text/plain",
+      "size" : 94
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_nanSheng"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_nanSheng"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MEHKTAM0"
+  }, {
+    "name" : "thread",
+    "value" : "4104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_nanSheng"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'name': '$csv{name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': 'data/test_userLogin.csv'}, 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$csv{data_name}', 'password': '$csv{data_password}'}, 'validate': {'code': '$csv{validate_code}', 'msg': '$csv{validate_msg}', 'data': '$csv{validate_data}'}}"
+  }, {
+    "name" : "config",
+    "value" : "{'base': {'base_url': 'http://www.nanshengbbs.top'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13e28f42d6685d63.json",
+  "parameterValues" : [ "{'name': '$csv{name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': 'data/test_userLogin.csv'}, 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$csv{data_name}', 'password': '$csv{data_password}'}, 'validate': {'code': '$csv{validate_code}', 'msg': '$csv{validate_msg}', 'data': '$csv{validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+}

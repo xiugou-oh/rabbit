@@ -1,0 +1,1 @@
+INFO     nanSheng:test_nanSheng.py:39 访问个人中心状态码：200

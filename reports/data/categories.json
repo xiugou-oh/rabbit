@@ -1,0 +1,119 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: string indices must be integers",
+      "children" : [ {
+        "name" : "test_userLogin[base-caseInfo0]",
+        "uid" : "d44abb8fa89afd6f",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783112,
+          "stop" : 1651040783112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "'base'" ]
+      }, {
+        "name" : "test_userLogin[base-caseInfo1]",
+        "uid" : "3966036ecf1e3d33",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783156,
+          "stop" : 1651040783156,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
+      }, {
+        "name" : "test_userLogin[base-caseInfo2]",
+        "uid" : "4beb2ce25bfb6b5f",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783160,
+          "stop" : 1651040783160,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
+      }, {
+        "name" : "test_getUserId[base]",
+        "uid" : "e5d5bb9982293b0c",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783166,
+          "stop" : 1651040783166,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      }, {
+        "name" : "test_getArticleId[base]",
+        "uid" : "4d769b5691f538bd",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783176,
+          "stop" : 1651040783176,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      } ],
+      "uid" : "72c0936964a9b2fe1cfe23cf31d1b5b6"
+    }, {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_userCenter[base]",
+        "uid" : "5e17c0aa8201b786",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040783170,
+          "stop" : 1651040783170,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

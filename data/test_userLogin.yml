@@ -1,0 +1,39 @@
+
+-
+  name : 用户名和密码正确
+  url : /api/rest/nanshengbbs/v3.0/user/getLogin
+  method : post
+  data :
+          name: one1
+          password: 123456789
+  validate:
+            code: 200
+            msg: 登录成功
+            data: null
+
+-
+  name : 用户名错误，密码正确
+  url : /api/rest/nanshengbbs/v3.0/user/getLogin
+  method : post
+  data :
+          name: one3
+          password: 123456789
+  validate:
+            code: 404
+            msg: 登录失败
+            data: null
+
+-
+  name : 用户名正确，密码错误
+  url : /api/rest/nanshengbbs/v3.0/user/getLogin
+  method : post
+  data :
+          name: one1
+          password: 12345678
+  validate:
+            code: 404
+            msg: 登录失败
+            data: null
+
+
+

@@ -1,0 +1,206 @@
+{
+  "uid" : "bb7fefd38cdc7537",
+  "name" : "test_getUserId[config0]",
+  "fullName" : "testCases.test_nanSheng.Test_nanSheng#test_getUserId",
+  "historyId" : "e5a64365ca128e947371bf1659a7292c",
+  "time" : {
+    "start" : 1656234885304,
+    "stop" : 1656234885425,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1656234885117,
+      "stop" : 1656234885117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9449ed46918797c1",
+      "name" : "log",
+      "source" : "9449ed46918797c1.txt",
+      "type" : "text/plain",
+      "size" : 105
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_nanSheng"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_nanSheng"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MEHKTAM0"
+  }, {
+    "name" : "thread",
+    "value" : "14368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_nanSheng"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "{'base': {'base_url': 'http://www.nanshengbbs.top'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "643c9c153c42ef09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656234195560,
+        "stop" : 1656234195724,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "68002d5937c1c67b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656234138738,
+        "stop" : 1656234138853,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "700c9059c55ec1ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656233987488,
+        "stop" : 1656233987598,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "ce2f1080e8ca0a7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656233887450,
+        "stop" : 1656233887692,
+        "duration" : 242
+      }
+    }, {
+      "uid" : "8557a74adf84f0f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656233789542,
+        "stop" : 1656233789737,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "8b952de3d49480e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656233658138,
+        "stop" : 1656233658257,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "e10546962399f7f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651130426193,
+        "stop" : 1651130426465,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "53fc96fb6cee90bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651069915851,
+        "stop" : 1651069916106,
+        "duration" : 255
+      }
+    }, {
+      "uid" : "96dae817b9426860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651067247264,
+        "stop" : 1651067247521,
+        "duration" : 257
+      }
+    }, {
+      "uid" : "16e61e80ceaa80ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651044109939,
+        "stop" : 1651044110227,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "fd2a6dfc8251f31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651043994598,
+        "stop" : 1651043994868,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "864af4adf3dc7b29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651043059390,
+        "stop" : 1651043059643,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "e2fdd960bdb69bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651040988439,
+        "stop" : 1651040988713,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "2a80724ddaba78a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651040902766,
+        "stop" : 1651040903037,
+        "duration" : 271
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb7fefd38cdc7537.json",
+  "parameterValues" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+}
