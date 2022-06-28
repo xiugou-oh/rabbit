@@ -4,156 +4,228 @@
   "children" : [ {
     "name" : "LAPTOP-MEHKTAM0",
     "children" : [ {
-      "name" : "18576-MainThread",
+      "name" : "12344-MainThread",
       "children" : [ {
-        "name" : "test_getUserId[base]",
-        "uid" : "9b2029715b23cc22",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "name" : "test_userLogin[base-caseInfo1]",
+        "uid" : "bbd1c7fed96ddbde",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702588,
-          "stop" : 1651040702588,
+          "start" : 1651040783156,
+          "stop" : 1651040783156,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "'base'" ]
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
       }, {
         "name" : "test_userLogin[base-caseInfo2]",
-        "uid" : "345c37cd00d5e1d1",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "uid" : "a884ce908d7db41d",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702583,
-          "stop" : 1651040702583,
+          "start" : 1651040783160,
+          "stop" : 1651040783160,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
       }, {
         "name" : "test_userCenter[base]",
-        "uid" : "abf1413e44b74ff3",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "uid" : "e53e16753c2f9c91",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702592,
-          "stop" : 1651040702592,
+          "start" : 1651040783170,
+          "stop" : 1651040783170,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "'base'" ]
       }, {
         "name" : "test_userLogin[base-caseInfo0]",
-        "uid" : "1cae0cf90ef916f1",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "uid" : "52ab49b6a8d242e6",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702529,
-          "stop" : 1651040702530,
-          "duration" : 1
+          "start" : 1651040783112,
+          "stop" : 1651040783112,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "'base'" ]
       }, {
-        "name" : "test_userLogin[base-caseInfo1]",
-        "uid" : "57bb7c7d447ec832",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "name" : "test_getUserId[base]",
+        "uid" : "23aa920b95ef081a",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702578,
-          "stop" : 1651040702578,
+          "start" : 1651040783166,
+          "stop" : 1651040783166,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
+        "parameters" : [ "'base'" ]
       }, {
         "name" : "test_getArticleId[base]",
-        "uid" : "f80d56ffc8fec5c0",
-        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "uid" : "4e945d225a6286fe",
+        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
         "status" : "broken",
         "time" : {
-          "start" : 1651040702598,
-          "stop" : 1651040702598,
+          "start" : 1651040783176,
+          "stop" : 1651040783176,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "'base'" ]
       } ],
-      "uid" : "ca120669848bd7e324b7ce444a55cc6a"
+      "uid" : "b0691c7d0b36169e60a8138c26a354ff"
     }, {
-      "name" : "25432-MainThread",
+      "name" : "4052-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "a6ae6d7f81ee410e",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "name" : "test_userLogin[caseInfo0]",
+        "uid" : "558f11a6dba13d82",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
         "status" : "passed",
         "time" : {
-          "start" : 1651040988328,
-          "stop" : 1651040988436,
-          "duration" : 108
+          "start" : 1651039609401,
+          "stop" : 1651039609660,
+          "duration" : 259
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}" ]
       }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "c2d1e180b9e4af20",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "name" : "test_userCenter",
+        "uid" : "840792ff0f74784d",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
         "status" : "passed",
         "time" : {
-          "start" : 1651040988921,
-          "stop" : 1651040989111,
-          "duration" : 190
+          "start" : 1651039610186,
+          "stop" : 1651039610391,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ ]
       }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "43ebb59726f119c6",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "name" : "test_userLogin[caseInfo1]",
+        "uid" : "deeb99b21ee53b3b",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
         "status" : "passed",
         "time" : {
-          "start" : 1651040988716,
-          "stop" : 1651040988918,
-          "duration" : 202
+          "start" : 1651039609663,
+          "stop" : 1651039609774,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
+      }, {
+        "name" : "test_getArticleId",
+        "uid" : "9b752e6c1fe2dfd6",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651039610394,
+          "stop" : 1651039610574,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_userLogin[caseInfo2]",
+        "uid" : "af373c3d01d3ecae",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651039609777,
+          "stop" : 1651039609861,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
+      }, {
+        "name" : "test_getUserId",
+        "uid" : "379f452f211fd34b",
+        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651039609864,
+          "stop" : 1651039610184,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8eddff7f70c8639260b3ef6a920db1e"
+    }, {
+      "name" : "19416-MainThread",
+      "children" : [ {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "8a70cd50c45a1ac4",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651040902314,
+          "stop" : 1651040902602,
+          "duration" : 288
         },
         "flaky" : false,
         "newFailed" : false,
@@ -161,16 +233,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "6fa3c0142b574c53",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "uid" : "418115ed35199883",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
         "status" : "passed",
         "time" : {
-          "start" : 1651040988223,
-          "stop" : 1651040988325,
-          "duration" : 102
+          "start" : 1651040902606,
+          "stop" : 1651040902682,
+          "duration" : 76
         },
         "flaky" : false,
         "newFailed" : false,
@@ -181,13 +253,13 @@
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "e2fdd960bdb69bb8",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "uid" : "3c92edd77c8531cc",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
         "status" : "passed",
         "time" : {
-          "start" : 1651040988439,
-          "stop" : 1651040988713,
-          "duration" : 274
+          "start" : 1651040902766,
+          "stop" : 1651040903037,
+          "duration" : 271
         },
         "flaky" : false,
         "newFailed" : false,
@@ -197,35 +269,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "3b3bdeac228d979a",
-        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040988042,
-          "stop" : 1651040988208,
-          "duration" : 166
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      } ],
-      "uid" : "52e6877035fdd3d454c6c356cbbbf297"
-    }, {
-      "name" : "27012-MainThread",
-      "children" : [ {
         "name" : "test_userCenter[config0]",
-        "uid" : "85200b09649f8efe",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "uid" : "65908fe75fd25a9f",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
         "status" : "passed",
         "time" : {
-          "start" : 1651130426468,
-          "stop" : 1651130426637,
-          "duration" : 169
+          "start" : 1651040903040,
+          "stop" : 1651040903280,
+          "duration" : 240
         },
         "flaky" : false,
         "newFailed" : false,
@@ -234,32 +285,15 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "1d86ec7ab2846998",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651130425996,
-          "stop" : 1651130426081,
-          "duration" : 85
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "ced181340d7d49a4",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "uid" : "f9cdd6d01ca5da49",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
         "status" : "passed",
         "time" : {
-          "start" : 1651130426085,
-          "stop" : 1651130426189,
-          "duration" : 104
+          "start" : 1651040902685,
+          "stop" : 1651040902762,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
@@ -270,13 +304,13 @@
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "18a03d029170ddbc",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "uid" : "fa8886126b5d8ecf",
+        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
         "status" : "passed",
         "time" : {
-          "start" : 1651130426639,
-          "stop" : 1651130426796,
-          "duration" : 157
+          "start" : 1651040903283,
+          "stop" : 1651040903428,
+          "duration" : 145
         },
         "flaky" : false,
         "newFailed" : false,
@@ -285,47 +319,30 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "e10546962399f7f9",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651130426193,
-          "stop" : 1651130426465,
-          "duration" : 272
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "4594a0d63e2bbf9f",
-        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651130425694,
-          "stop" : 1651130425993,
-          "duration" : 299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
-      "uid" : "81c3d03bf2f91c4f13cdcbee7681f00e"
+      "uid" : "68ff5c7e23ed56615db34a0664cf29cc"
     }, {
       "name" : "640-MainThread",
       "children" : [ {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "41ef225a12f089c8",
+        "parentUid" : "fa1060624ffc0195238959abca952951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233657918,
+          "stop" : 1656233658033,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "8e589bab50af9f23",
+        "uid" : "b171f0706e587f52",
         "parentUid" : "fa1060624ffc0195238959abca952951",
         "status" : "passed",
         "time" : {
@@ -342,7 +359,7 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "8b952de3d49480e8",
+        "uid" : "397a2e3ac5c78286",
         "parentUid" : "fa1060624ffc0195238959abca952951",
         "status" : "passed",
         "time" : {
@@ -358,14 +375,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "74c21aa1382a1703",
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "d18399809c483d45",
         "parentUid" : "fa1060624ffc0195238959abca952951",
         "status" : "passed",
         "time" : {
-          "start" : 1656233657918,
-          "stop" : 1656233658033,
-          "duration" : 115
+          "start" : 1656233658091,
+          "stop" : 1656233658135,
+          "duration" : 44
         },
         "flaky" : false,
         "newFailed" : false,
@@ -373,27 +390,10 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "482e315de7d988f5",
-        "parentUid" : "fa1060624ffc0195238959abca952951",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233658319,
-          "stop" : 1656233658515,
-          "duration" : 196
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "dbcad1b748a2e9c0",
+        "uid" : "bc1413f8f201ed25",
         "parentUid" : "fa1060624ffc0195238959abca952951",
         "status" : "passed",
         "time" : {
@@ -409,14 +409,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "9fe1713cda8b24bc",
+        "name" : "test_getArticleId[config0]",
+        "uid" : "6990c2f40700c3ff",
         "parentUid" : "fa1060624ffc0195238959abca952951",
         "status" : "passed",
         "time" : {
-          "start" : 1656233658091,
-          "stop" : 1656233658135,
-          "duration" : 44
+          "start" : 1656233658319,
+          "stop" : 1656233658515,
+          "duration" : 196
         },
         "flaky" : false,
         "newFailed" : false,
@@ -424,37 +424,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
       "uid" : "fa1060624ffc0195238959abca952951"
     }, {
-      "name" : "6736-MainThread",
+      "name" : "7308-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "2131bfd5272449aa",
-        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234138546,
-          "stop" : 1656234138638,
-          "duration" : 92
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "c9adda0f92c79d1",
-        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "uid" : "44bd6003db739ba3",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
         "status" : "passed",
         "time" : {
-          "start" : 1656234138855,
-          "stop" : 1656234138932,
-          "duration" : 77
+          "start" : 1656233987601,
+          "stop" : 1656233987701,
+          "duration" : 100
         },
         "flaky" : false,
         "newFailed" : false,
@@ -464,14 +447,48 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "71962f87883b5368",
-        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "c48a1c04e04a5ccf",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
         "status" : "passed",
         "time" : {
-          "start" : 1656234138687,
-          "stop" : 1656234138734,
+          "start" : 1656233987250,
+          "stop" : 1656233987378,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo1]",
+        "uid" : "8dd0d626197200",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233987382,
+          "stop" : 1656233987429,
           "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "b0b3c2befa6526e3",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233987433,
+          "stop" : 1656233987484,
+          "duration" : 51
         },
         "flaky" : false,
         "newFailed" : false,
@@ -482,13 +499,13 @@
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "c489949fa2eef715",
-        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "uid" : "9d20b2e42b8d6eb5",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
         "status" : "passed",
         "time" : {
-          "start" : 1656234138936,
-          "stop" : 1656234139094,
-          "duration" : 158
+          "start" : 1656233987704,
+          "stop" : 1656233987867,
+          "duration" : 163
         },
         "flaky" : false,
         "newFailed" : false,
@@ -498,8 +515,29 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_getUserId[config0]",
+        "uid" : "a34dd3fa55468616",
+        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233987488,
+          "stop" : 1656233987598,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      } ],
+      "uid" : "0a7cbcc91912c102e50de899adfc9930"
+    }, {
+      "name" : "6736-MainThread",
+      "children" : [ {
         "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "7c8ad3682e30b129",
+        "uid" : "1e7b5e86d32b931c",
         "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
         "status" : "passed",
         "time" : {
@@ -515,8 +553,76 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "ae0cf088b99d51b9",
+        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234138687,
+          "stop" : 1656234138734,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "c128ba069e95e9df",
+        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234138855,
+          "stop" : 1656234138932,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "c80dcd082c32633b",
+        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234138546,
+          "stop" : 1656234138638,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getArticleId[config0]",
+        "uid" : "adc39881d5849a69",
+        "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234138936,
+          "stop" : 1656234139094,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "68002d5937c1c67b",
+        "uid" : "619292536eb88630",
         "parentUid" : "7420729e9de09bd1162d5b5b945a11c9",
         "status" : "passed",
         "time" : {
@@ -534,116 +640,239 @@
       } ],
       "uid" : "7420729e9de09bd1162d5b5b945a11c9"
     }, {
-      "name" : "4052-MainThread",
+      "name" : "9400-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[caseInfo0]",
-        "uid" : "81124af31baf4dca",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "9e0a12ce35d557b3",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
         "status" : "passed",
         "time" : {
-          "start" : 1651039609401,
-          "stop" : 1651039609660,
-          "duration" : 259
+          "start" : 1656233789426,
+          "stop" : 1656233789538,
+          "duration" : 112
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}" ]
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userCenter",
-        "uid" : "7ebc24ccfeb86cc9",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "name" : "test_getUserId[config0]",
+        "uid" : "be3c460b3ac23fca",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
         "status" : "passed",
         "time" : {
-          "start" : 1651039610186,
-          "stop" : 1651039610391,
-          "duration" : 205
+          "start" : 1656233789542,
+          "stop" : 1656233789737,
+          "duration" : 195
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_getUserId",
-        "uid" : "f3d6596039006878",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "b46b97a431e01a42",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
         "status" : "passed",
         "time" : {
-          "start" : 1651039609864,
-          "stop" : 1651039610184,
-          "duration" : 320
+          "start" : 1656233789140,
+          "stop" : 1656233789310,
+          "duration" : 170
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "d7f097c45ba72055",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233789740,
+          "stop" : 1656233789832,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo1]",
+        "uid" : "6210204471555360",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233789314,
+          "stop" : 1656233789423,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getArticleId[config0]",
+        "uid" : "e5cc28922a21c941",
+        "parentUid" : "dfc70611575b11809156f22a694419f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233789835,
+          "stop" : 1656233790434,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      } ],
+      "uid" : "dfc70611575b11809156f22a694419f4"
+    }, {
+      "name" : "2628-MainThread",
+      "children" : [ {
         "name" : "test_userLogin[caseInfo2]",
-        "uid" : "43d393fb1f78422f",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "uid" : "afd250e9f59cc344",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
         "status" : "passed",
         "time" : {
-          "start" : 1651039609777,
-          "stop" : 1651039609861,
-          "duration" : 84
+          "start" : 1650697638230,
+          "stop" : 1650697638353,
+          "duration" : 123
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
       }, {
-        "name" : "test_userLogin[caseInfo1]",
-        "uid" : "fffee253e05d8d84",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "name" : "test_getArticleId",
+        "uid" : "11adebd1d7c83544",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
         "status" : "passed",
         "time" : {
-          "start" : 1651039609663,
-          "stop" : 1651039609774,
-          "duration" : 111
+          "start" : 1650697638949,
+          "stop" : 1650697639182,
+          "duration" : 233
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_userCenter",
+        "uid" : "a36450eb338f00b0",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650697638751,
+          "stop" : 1650697638947,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_userLogin[caseInfo0]",
+        "uid" : "45c0638cc309ad16",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650697637937,
+          "stop" : 1650697638147,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}" ]
+      }, {
+        "name" : "test_userLogin[caseInfo1]",
+        "uid" : "426c04b991462ab7",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650697638149,
+          "stop" : 1650697638228,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
       }, {
-        "name" : "test_getArticleId",
-        "uid" : "475124f65dc12d88",
-        "parentUid" : "e8eddff7f70c8639260b3ef6a920db1e",
+        "name" : "test_getUserId",
+        "uid" : "68b2ee7a7773681b",
+        "parentUid" : "d6485c8b5909ae46954967f170642f67",
         "status" : "passed",
         "time" : {
-          "start" : 1651039610394,
-          "stop" : 1651039610574,
-          "duration" : 180
+          "start" : 1650697638356,
+          "stop" : 1650697638749,
+          "duration" : 393
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e8eddff7f70c8639260b3ef6a920db1e"
+      "uid" : "d6485c8b5909ae46954967f170642f67"
     }, {
       "name" : "13216-MainThread",
       "children" : [ {
+        "name" : "test_userCenter[config0]",
+        "uid" : "115502e67d0d944e",
+        "parentUid" : "f01bdc9988571c4b752b2530e57398f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651067247524,
+          "stop" : 1651067247688,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "ad08f9d50d16d7a8",
+        "uid" : "81d09316ae10ba52",
         "parentUid" : "f01bdc9988571c4b752b2530e57398f6",
         "status" : "failed",
         "time" : {
@@ -659,25 +888,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'config': {'name': 'logincase', 'parameters': [{'name-data-name-data_password-validate_code-validate_msg-validate_data': '${P(test_userLogin.csv)}'}]}, 'name': '$name', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$data_name', 'password': '$data_password'}, 'validate': {'code': '$validate_code', 'msg': '$validate_msg', 'data': '$validate_data'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "2543193cc14e6aca",
-        "parentUid" : "f01bdc9988571c4b752b2530e57398f6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651067247691,
-          "stop" : 1651067247897,
-          "duration" : 206
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "96dae817b9426860",
+        "uid" : "502e887f4f080fe6",
         "parentUid" : "f01bdc9988571c4b752b2530e57398f6",
         "status" : "passed",
         "time" : {
@@ -693,14 +905,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "dfb7df12db3d6f8a",
+        "name" : "test_getArticleId[config0]",
+        "uid" : "53c60d76d5630a91",
         "parentUid" : "f01bdc9988571c4b752b2530e57398f6",
         "status" : "passed",
         "time" : {
-          "start" : 1651067247524,
-          "stop" : 1651067247688,
-          "duration" : 164
+          "start" : 1651067247691,
+          "stop" : 1651067247897,
+          "duration" : 206
         },
         "flaky" : false,
         "newFailed" : false,
@@ -712,16 +924,16 @@
       } ],
       "uid" : "f01bdc9988571c4b752b2530e57398f6"
     }, {
-      "name" : "5136-MainThread",
+      "name" : "17596-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "9c72fd7c76bf901d",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
+        "name" : "test_userCenter[config0]",
+        "uid" : "e21631b7ee173c0d",
+        "parentUid" : "432934048e13c6f50fd605a351c097a2",
         "status" : "passed",
         "time" : {
-          "start" : 1656234195370,
-          "stop" : 1656234195457,
-          "duration" : 87
+          "start" : 1651043994871,
+          "stop" : 1651043995153,
+          "duration" : 282
         },
         "flaky" : false,
         "newFailed" : false,
@@ -729,16 +941,33 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "927cb65e9ef3aaba",
+        "parentUid" : "432934048e13c6f50fd605a351c097a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651043994291,
+          "stop" : 1651043994545,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '${name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': '${parameterize(data/test_userLogin.csv)}'}, 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '${data_name}', 'password': '${data_password}'}, 'validate': {'code': '${validate_code}', 'msg': '${validate_msg}', 'data': '${validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "643c9c153c42ef09",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
+        "uid" : "817fb64b08cb974d",
+        "parentUid" : "432934048e13c6f50fd605a351c097a2",
         "status" : "passed",
         "time" : {
-          "start" : 1656234195560,
-          "stop" : 1656234195724,
-          "duration" : 164
+          "start" : 1651043994598,
+          "stop" : 1651043994868,
+          "duration" : 270
         },
         "flaky" : false,
         "newFailed" : false,
@@ -747,66 +976,15 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "7d89e5371f860631",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234195727,
-          "stop" : 1656234195875,
-          "duration" : 148
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "865ef74e6a5eae42",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234195461,
-          "stop" : 1656234195505,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "5a4a3d573116b84c",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234195509,
-          "stop" : 1656234195557,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "1d6f23aa0e2aeefa",
-        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
+        "uid" : "fb64d3e83d47677",
+        "parentUid" : "432934048e13c6f50fd605a351c097a2",
         "status" : "passed",
         "time" : {
-          "start" : 1656234195879,
-          "stop" : 1656234196245,
-          "duration" : 366
+          "start" : 1651043995170,
+          "stop" : 1651043995402,
+          "duration" : 232
         },
         "flaky" : false,
         "newFailed" : false,
@@ -816,35 +994,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
-      "uid" : "ee298e0dd9e75e5ef60711102240e44a"
+      "uid" : "432934048e13c6f50fd605a351c097a2"
     }, {
-      "name" : "7308-MainThread",
+      "name" : "25432-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "a05965169fb5d2f8",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233987382,
-          "stop" : 1656233987429,
-          "duration" : 47
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "2fb7075e282af2c7",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "uid" : "3c1a84052fac3135",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
         "status" : "passed",
         "time" : {
-          "start" : 1656233987250,
-          "stop" : 1656233987378,
-          "duration" : 128
+          "start" : 1651040988042,
+          "stop" : 1651040988208,
+          "duration" : 166
         },
         "flaky" : false,
         "newFailed" : false,
@@ -854,14 +1015,31 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "d37679d27aedb2a7",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "name" : "test_userLogin[config0-caseInfo1]",
+        "uid" : "959b4a89d83beca4",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
         "status" : "passed",
         "time" : {
-          "start" : 1656233987704,
-          "stop" : 1656233987867,
-          "duration" : 163
+          "start" : 1651040988223,
+          "stop" : 1651040988325,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getArticleId[config0]",
+        "uid" : "c8e01421db762da4",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651040988921,
+          "stop" : 1651040989111,
+          "duration" : 190
         },
         "flaky" : false,
         "newFailed" : false,
@@ -872,13 +1050,13 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "700c9059c55ec1ed",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "uid" : "e97728cc2f3ce961",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
         "status" : "passed",
         "time" : {
-          "start" : 1656233987488,
-          "stop" : 1656233987598,
-          "duration" : 110
+          "start" : 1651040988439,
+          "stop" : 1651040988713,
+          "duration" : 274
         },
         "flaky" : false,
         "newFailed" : false,
@@ -889,13 +1067,13 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "c0cb0decde3eb37e",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "uid" : "b8e15ab31a1afb29",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
         "status" : "passed",
         "time" : {
-          "start" : 1656233987601,
-          "stop" : 1656233987701,
-          "duration" : 100
+          "start" : 1651040988716,
+          "stop" : 1651040988918,
+          "duration" : 202
         },
         "flaky" : false,
         "newFailed" : false,
@@ -906,13 +1084,13 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "c317164c024d8883",
-        "parentUid" : "0a7cbcc91912c102e50de899adfc9930",
+        "uid" : "74ed9b6c7b8b9f9b",
+        "parentUid" : "52e6877035fdd3d454c6c356cbbbf297",
         "status" : "passed",
         "time" : {
-          "start" : 1656233987433,
-          "stop" : 1656233987484,
-          "duration" : 51
+          "start" : 1651040988328,
+          "stop" : 1651040988436,
+          "duration" : 108
         },
         "flaky" : false,
         "newFailed" : false,
@@ -922,46 +1100,12 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
-      "uid" : "0a7cbcc91912c102e50de899adfc9930"
+      "uid" : "52e6877035fdd3d454c6c356cbbbf297"
     }, {
       "name" : "9908-MainThread",
       "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "5f4c752e4efa9f7e",
-        "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233887293,
-          "stop" : 1656233887396,
-          "duration" : 103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "ce2f1080e8ca0a7d",
-        "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233887450,
-          "stop" : 1656233887692,
-          "duration" : 242
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "e833e3718a668b80",
+        "uid" : "1ef2d4b798583abb",
         "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
         "status" : "passed",
         "time" : {
@@ -977,8 +1121,25 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_userLogin[config0-caseInfo1]",
+        "uid" : "4fe6013e44fecbaf",
+        "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233887293,
+          "stop" : 1656233887396,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "81ca0c0bc49f09f3",
+        "uid" : "e227ba58cb5682a7",
         "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
         "status" : "passed",
         "time" : {
@@ -994,14 +1155,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "66fd677271afb8ef",
+        "name" : "test_getUserId[config0]",
+        "uid" : "6aabffb89f2de7b",
         "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
         "status" : "passed",
         "time" : {
-          "start" : 1656233887399,
-          "stop" : 1656233887447,
-          "duration" : 48
+          "start" : 1656233887450,
+          "stop" : 1656233887692,
+          "duration" : 242
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1009,10 +1170,10 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "574ddd1a5a12ea63",
+        "uid" : "99ac61d7d69f7641",
         "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
         "status" : "passed",
         "time" : {
@@ -1027,19 +1188,36 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "5a207cc7936d3648",
+        "parentUid" : "fb164ef23c0c9aef7b73488dc5690cf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656233887399,
+          "stop" : 1656233887447,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
       "uid" : "fb164ef23c0c9aef7b73488dc5690cf0"
     }, {
-      "name" : "4104-MainThread",
+      "name" : "14224-MainThread",
       "children" : [ {
-        "name" : "test_userCenter[config0]",
-        "uid" : "1a14c914efcc7033",
-        "parentUid" : "8ebb0418df038d7b3481191be01e0230",
+        "name" : "test_getArticleId[config0]",
+        "uid" : "67ad9d033b1c5f3b",
+        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
         "status" : "passed",
         "time" : {
-          "start" : 1651043059646,
-          "stop" : 1651043059880,
-          "duration" : 234
+          "start" : 1651069916277,
+          "stop" : 1651069916517,
+          "duration" : 240
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1049,8 +1227,63 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_getUserId[config0]",
+        "uid" : "9263cc69269890fc",
+        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651069915851,
+          "stop" : 1651069916106,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "5f576d77725c5820",
+        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651069915401,
+          "stop" : 1651069915796,
+          "duration" : 395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'config': {'name': 'logincase', 'parameters': [{'name-data-name-data_password-validate_code-validate_msg-validate_data': '${P(test_userLogin.csv)}'}]}, 'name': '$name', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$data_name', 'password': '$data_password'}, 'validate': {'code': '$validate_code', 'msg': '$validate_msg', 'data': '$validate_data'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "72cf879563c9d6ea",
+        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651069916109,
+          "stop" : 1651069916275,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      } ],
+      "uid" : "f10fe5fc61566f858f75eaf1df479199"
+    }, {
+      "name" : "4104-MainThread",
+      "children" : [ {
         "name" : "test_getArticleId[config0]",
-        "uid" : "82e1d6aa66534d17",
+        "uid" : "f16fc77438fb4fb5",
         "parentUid" : "8ebb0418df038d7b3481191be01e0230",
         "status" : "passed",
         "time" : {
@@ -1067,7 +1300,7 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "13e28f42d6685d63",
+        "uid" : "1fe1f2a8ccbae109",
         "parentUid" : "8ebb0418df038d7b3481191be01e0230",
         "status" : "failed",
         "time" : {
@@ -1083,8 +1316,25 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '$csv{name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': 'data/test_userLogin.csv'}, 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$csv{data_name}', 'password': '$csv{data_password}'}, 'validate': {'code': '$csv{validate_code}', 'msg': '$csv{validate_msg}', 'data': '$csv{validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "6fd8e2c2438e56f6",
+        "parentUid" : "8ebb0418df038d7b3481191be01e0230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651043059646,
+          "stop" : 1651043059880,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "864af4adf3dc7b29",
+        "uid" : "55e4a9ac904021af",
         "parentUid" : "8ebb0418df038d7b3481191be01e0230",
         "status" : "passed",
         "time" : {
@@ -1102,351 +1352,16 @@
       } ],
       "uid" : "8ebb0418df038d7b3481191be01e0230"
     }, {
-      "name" : "14224-MainThread",
+      "name" : "5136-MainThread",
       "children" : [ {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "c908effaff8cc9fb",
-        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651069916277,
-          "stop" : 1651069916517,
-          "duration" : 240
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "de333867ec06fc77",
-        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
-        "status" : "failed",
-        "time" : {
-          "start" : 1651069915401,
-          "stop" : 1651069915796,
-          "duration" : 395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'config': {'name': 'logincase', 'parameters': [{'name-data-name-data_password-validate_code-validate_msg-validate_data': '${P(test_userLogin.csv)}'}]}, 'name': '$name', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '$data_name', 'password': '$data_password'}, 'validate': {'code': '$validate_code', 'msg': '$validate_msg', 'data': '$validate_data'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "49bc4f7da24dba34",
-        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651069916109,
-          "stop" : 1651069916275,
-          "duration" : 166
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "53fc96fb6cee90bc",
-        "parentUid" : "f10fe5fc61566f858f75eaf1df479199",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651069915851,
-          "stop" : 1651069916106,
-          "duration" : 255
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      } ],
-      "uid" : "f10fe5fc61566f858f75eaf1df479199"
-    }, {
-      "name" : "2628-MainThread",
-      "children" : [ {
-        "name" : "test_getArticleId",
-        "uid" : "5926a5237e97ca1b",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697638949,
-          "stop" : 1650697639182,
-          "duration" : 233
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_userLogin[caseInfo2]",
-        "uid" : "f715ef27fcf4d7ea",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697638230,
-          "stop" : 1650697638353,
-          "duration" : 123
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
-      }, {
-        "name" : "test_getUserId",
-        "uid" : "1ee37333b45495bb",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697638356,
-          "stop" : 1650697638749,
-          "duration" : 393
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_userCenter",
-        "uid" : "85023fa5a46e2671",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697638751,
-          "stop" : 1650697638947,
-          "duration" : 196
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_userLogin[caseInfo1]",
-        "uid" : "a53a8dcac3aaea2c",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697638149,
-          "stop" : 1650697638228,
-          "duration" : 79
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}" ]
-      }, {
-        "name" : "test_userLogin[caseInfo0]",
-        "uid" : "2f353f8b0c3898af",
-        "parentUid" : "d6485c8b5909ae46954967f170642f67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650697637937,
-          "stop" : 1650697638147,
-          "duration" : 210
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': 'http://www.nanshengbbs.top/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}" ]
-      } ],
-      "uid" : "d6485c8b5909ae46954967f170642f67"
-    }, {
-      "name" : "9400-MainThread",
-      "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "ef37308772f45b52",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233789140,
-          "stop" : 1656233789310,
-          "duration" : 170
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "a1c9f7fe0a37e246",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233789740,
-          "stop" : 1656233789832,
-          "duration" : 92
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "6db176f52efa9117",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233789835,
-          "stop" : 1656233790434,
-          "duration" : 599
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "8557a74adf84f0f1",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233789542,
-          "stop" : 1656233789737,
-          "duration" : 195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "c01b0080c5c0a5c8",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656233789314,
-          "stop" : 1656233789423,
-          "duration" : 109
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "fb9b62087de10d10",
-        "parentUid" : "dfc70611575b11809156f22a694419f4",
+        "uid" : "ead15315b1fc36c7",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
         "status" : "passed",
         "time" : {
-          "start" : 1656233789426,
-          "stop" : 1656233789538,
-          "duration" : 112
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      } ],
-      "uid" : "dfc70611575b11809156f22a694419f4"
-    }, {
-      "name" : "19416-MainThread",
-      "children" : [ {
-        "name" : "test_getUserId[config0]",
-        "uid" : "2a80724ddaba78a8",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040902766,
-          "stop" : 1651040903037,
-          "duration" : 271
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getArticleId[config0]",
-        "uid" : "7a2c1cc742c1df66",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040903283,
-          "stop" : 1651040903428,
-          "duration" : 145
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "218102f19eb77f4a",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040902314,
-          "stop" : 1651040902602,
-          "duration" : 288
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "1e6274cc05e27a2b",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040902685,
-          "stop" : 1651040902762,
-          "duration" : 77
+          "start" : 1656234195509,
+          "stop" : 1656234195557,
+          "duration" : 48
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1456,31 +1371,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "a0ce59ac118d6ed",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651040903040,
-          "stop" : 1651040903280,
-          "duration" : 240
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "e1e91864fa8fd189",
-        "parentUid" : "68ff5c7e23ed56615db34a0664cf29cc",
+        "uid" : "760b1f96ac58b79b",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
         "status" : "passed",
         "time" : {
-          "start" : 1651040902606,
-          "stop" : 1651040902682,
-          "duration" : 76
+          "start" : 1656234195461,
+          "stop" : 1656234195505,
+          "duration" : 44
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1489,19 +1387,15 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      } ],
-      "uid" : "68ff5c7e23ed56615db34a0664cf29cc"
-    }, {
-      "name" : "10812-MainThread",
-      "children" : [ {
+      }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "b8400604c4a1f826",
-        "parentUid" : "ec709049868790be57df29958163c997",
+        "uid" : "64310bcc0b91b4e3",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
         "status" : "passed",
         "time" : {
-          "start" : 1651044110455,
-          "stop" : 1651044110633,
-          "duration" : 178
+          "start" : 1656234195879,
+          "stop" : 1656234196245,
+          "duration" : 366
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1512,30 +1406,13 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "ba9bc00fd44fcb90",
-        "parentUid" : "ec709049868790be57df29958163c997",
+        "uid" : "5b9bbbdd0956c4c5",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
         "status" : "passed",
         "time" : {
-          "start" : 1651044110230,
-          "stop" : 1651044110452,
-          "duration" : 222
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "16e61e80ceaa80ca",
-        "parentUid" : "ec709049868790be57df29958163c997",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651044109939,
-          "stop" : 1651044110227,
-          "duration" : 288
+          "start" : 1656234195727,
+          "stop" : 1656234195875,
+          "duration" : 148
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1546,13 +1423,13 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "adc3b577398b683f",
-        "parentUid" : "ec709049868790be57df29958163c997",
-        "status" : "failed",
+        "uid" : "f17e888e991dac3f",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
+        "status" : "passed",
         "time" : {
-          "start" : 1651044109718,
-          "stop" : 1651044109889,
-          "duration" : 171
+          "start" : 1656234195370,
+          "stop" : 1656234195457,
+          "duration" : 87
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1560,14 +1437,137 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': '${parameterize(data/test_userLogin.csv)}'}, 'name': '${name}', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '${data_name}', 'password': '${data_password}'}, 'validate': {'code': '${validate_code}', 'msg': '${validate_msg}', 'data': '${validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getUserId[config0]",
+        "uid" : "545716a88af41037",
+        "parentUid" : "ee298e0dd9e75e5ef60711102240e44a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234195560,
+          "stop" : 1656234195724,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
-      "uid" : "ec709049868790be57df29958163c997"
+      "uid" : "ee298e0dd9e75e5ef60711102240e44a"
+    }, {
+      "name" : "18576-MainThread",
+      "children" : [ {
+        "name" : "test_userLogin[base-caseInfo0]",
+        "uid" : "299f6010551b3531",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702529,
+          "stop" : 1651040702530,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "'base'" ]
+      }, {
+        "name" : "test_userCenter[base]",
+        "uid" : "a69af38283af6908",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702592,
+          "stop" : 1651040702592,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      }, {
+        "name" : "test_getArticleId[base]",
+        "uid" : "731ba9c3875531b9",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702598,
+          "stop" : 1651040702598,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      }, {
+        "name" : "test_getUserId[base]",
+        "uid" : "544a42af6d1e8f5a",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702588,
+          "stop" : 1651040702588,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'base'" ]
+      }, {
+        "name" : "test_userLogin[base-caseInfo1]",
+        "uid" : "a90a14858e050e6b",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702578,
+          "stop" : 1651040702578,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
+      }, {
+        "name" : "test_userLogin[base-caseInfo2]",
+        "uid" : "78134b89984fa443",
+        "parentUid" : "ca120669848bd7e324b7ce444a55cc6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651040702583,
+          "stop" : 1651040702583,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
+      } ],
+      "uid" : "ca120669848bd7e324b7ce444a55cc6a"
     }, {
       "name" : "14368-MainThread",
       "children" : [ {
         "name" : "test_userLogin[config0-caseInfo1]",
-        "uid" : "4ff9829fdd58421",
+        "uid" : "28db2f7a94fb0ed9",
         "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
         "status" : "passed",
         "time" : {
@@ -1583,25 +1583,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_getUserId[config0]",
-        "uid" : "bb7fefd38cdc7537",
-        "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234885304,
-          "stop" : 1656234885425,
-          "duration" : 121
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 14,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_userCenter[config0]",
-        "uid" : "d6c96ef6e535f3c4",
+        "uid" : "439a6dc3017d288a",
         "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
         "status" : "passed",
         "time" : {
@@ -1617,25 +1600,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
-        "name" : "test_userLogin[config0-caseInfo2]",
-        "uid" : "69e9d5a0cd2c9ffb",
-        "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656234885257,
-          "stop" : 1656234885301,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 9,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "bd75bc09634ddc1a",
+        "uid" : "4cc5d9b1213db53c",
         "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
         "status" : "passed",
         "time" : {
@@ -1652,7 +1618,7 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "4a8547014ef78bcc",
+        "uid" : "c928584a3ab36f2a",
         "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
         "status" : "passed",
         "time" : {
@@ -1667,142 +1633,53 @@
         "retriesCount" : 14,
         "retriesStatusChange" : true,
         "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getUserId[config0]",
+        "uid" : "b05354abf097665b",
+        "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234885304,
+          "stop" : 1656234885425,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 14,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "8089dcf0e4a3c2f9",
+        "parentUid" : "8f8c190fa27750efaec5a1e61f5b549b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656234885257,
+          "stop" : 1656234885301,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
       "uid" : "8f8c190fa27750efaec5a1e61f5b549b"
     }, {
-      "name" : "12344-MainThread",
+      "name" : "27012-MainThread",
       "children" : [ {
-        "name" : "test_userCenter[base]",
-        "uid" : "5e17c0aa8201b786",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783170,
-          "stop" : 1651040783170,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'base'" ]
-      }, {
-        "name" : "test_userLogin[base-caseInfo1]",
-        "uid" : "3966036ecf1e3d33",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783156,
-          "stop" : 1651040783156,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
-      }, {
-        "name" : "test_getArticleId[base]",
-        "uid" : "4d769b5691f538bd",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783176,
-          "stop" : 1651040783176,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'base'" ]
-      }, {
-        "name" : "test_userLogin[base-caseInfo0]",
-        "uid" : "d44abb8fa89afd6f",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783112,
-          "stop" : 1651040783112,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "'base'" ]
-      }, {
-        "name" : "test_getUserId[base]",
-        "uid" : "e5d5bb9982293b0c",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783166,
-          "stop" : 1651040783166,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'base'" ]
-      }, {
-        "name" : "test_userLogin[base-caseInfo2]",
-        "uid" : "4beb2ce25bfb6b5f",
-        "parentUid" : "b0691c7d0b36169e60a8138c26a354ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651040783160,
-          "stop" : 1651040783160,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
-      } ],
-      "uid" : "b0691c7d0b36169e60a8138c26a354ff"
-    }, {
-      "name" : "17596-MainThread",
-      "children" : [ {
-        "name" : "test_userLogin[config0-caseInfo0]",
-        "uid" : "f3136d7b395cbdd8",
-        "parentUid" : "432934048e13c6f50fd605a351c097a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1651043994291,
-          "stop" : 1651043994545,
-          "duration" : 254
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'name': '${name}', 'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': '${parameterize(data/test_userLogin.csv)}'}, 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '${data_name}', 'password': '${data_password}'}, 'validate': {'code': '${validate_code}', 'msg': '${validate_msg}', 'data': '${validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
-      }, {
-        "name" : "test_userCenter[config0]",
-        "uid" : "bf3bd86bffbeb059",
-        "parentUid" : "432934048e13c6f50fd605a351c097a2",
+        "name" : "test_getUserId[config0]",
+        "uid" : "7c057df3af104721",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
         "status" : "passed",
         "time" : {
-          "start" : 1651043994871,
-          "stop" : 1651043995153,
-          "duration" : 282
+          "start" : 1651130426193,
+          "stop" : 1651130426465,
+          "duration" : 272
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1813,13 +1690,119 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getArticleId[config0]",
-        "uid" : "f4db21d8fc5937fd",
-        "parentUid" : "432934048e13c6f50fd605a351c097a2",
+        "uid" : "57eeeca5738d114",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
         "status" : "passed",
         "time" : {
-          "start" : 1651043995170,
-          "stop" : 1651043995402,
-          "duration" : 232
+          "start" : 1651130426639,
+          "stop" : 1651130426796,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "645da1e32093cff",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651130425694,
+          "stop" : 1651130425993,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo2]",
+        "uid" : "452fdb2461301ab3",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651130426085,
+          "stop" : 1651130426189,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "46144fd11766cfe6",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651130426468,
+          "stop" : 1651130426637,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userLogin[config0-caseInfo1]",
+        "uid" : "da735ac205832ceb",
+        "parentUid" : "81c3d03bf2f91c4f13cdcbee7681f00e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651130425996,
+          "stop" : 1651130426081,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      } ],
+      "uid" : "81c3d03bf2f91c4f13cdcbee7681f00e"
+    }, {
+      "name" : "10812-MainThread",
+      "children" : [ {
+        "name" : "test_userLogin[config0-caseInfo0]",
+        "uid" : "e1f3c94921d2f5fc",
+        "parentUid" : "ec709049868790be57df29958163c997",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651044109718,
+          "stop" : 1651044109889,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'parameters': {'name-data-name-data_password-validate_code-validate_msg-validate_data': '${parameterize(data/test_userLogin.csv)}'}, 'name': '${name}', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': '${data_name}', 'password': '${data_password}'}, 'validate': {'code': '${validate_code}', 'msg': '${validate_msg}', 'data': '${validate_data}'}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_userCenter[config0]",
+        "uid" : "e62f0fc16f3136dc",
+        "parentUid" : "ec709049868790be57df29958163c997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651044110230,
+          "stop" : 1651044110452,
+          "duration" : 222
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1830,13 +1813,30 @@
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       }, {
         "name" : "test_getUserId[config0]",
-        "uid" : "fd2a6dfc8251f31c",
-        "parentUid" : "432934048e13c6f50fd605a351c097a2",
+        "uid" : "68146201884bc0da",
+        "parentUid" : "ec709049868790be57df29958163c997",
         "status" : "passed",
         "time" : {
-          "start" : 1651043994598,
-          "stop" : 1651043994868,
-          "duration" : 270
+          "start" : 1651044109939,
+          "stop" : 1651044110227,
+          "duration" : 288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+      }, {
+        "name" : "test_getArticleId[config0]",
+        "uid" : "6f821b52090a37a5",
+        "parentUid" : "ec709049868790be57df29958163c997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651044110455,
+          "stop" : 1651044110633,
+          "duration" : 178
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1846,7 +1846,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
       } ],
-      "uid" : "432934048e13c6f50fd605a351c097a2"
+      "uid" : "ec709049868790be57df29958163c997"
     } ],
     "uid" : "2dd2c385a003bdaf2eef7b6e6e440f07"
   } ]

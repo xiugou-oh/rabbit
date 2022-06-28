@@ -1,0 +1,92 @@
+{
+  "uid" : "adc39881d5849a69",
+  "name" : "test_getArticleId[config0]",
+  "fullName" : "testCases.test_nanSheng.Test_nanSheng#test_getArticleId",
+  "historyId" : "61111fa7db99cc195219ac03049adb93",
+  "time" : {
+    "start" : 1656234138936,
+    "stop" : 1656234139094,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1656234138544,
+      "stop" : 1656234138545,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dbb3ae0f057afc30",
+      "name" : "log",
+      "source" : "dbb3ae0f057afc30.txt",
+      "type" : "text/plain",
+      "size" : 105
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_nanSheng"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_nanSheng"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MEHKTAM0"
+  }, {
+    "name" : "thread",
+    "value" : "6736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_nanSheng"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "{'base': {'base_url': 'http://www.nanshengbbs.top'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adc39881d5849a69.json",
+  "parameterValues" : [ "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+}

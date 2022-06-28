@@ -1,0 +1,95 @@
+{
+  "uid" : "5a207cc7936d3648",
+  "name" : "test_userLogin[config0-caseInfo2]",
+  "fullName" : "testCases.test_nanSheng.Test_nanSheng#test_userLogin",
+  "historyId" : "d6e1e0c53ec8f79e575873a1952b41d4",
+  "time" : {
+    "start" : 1656233887399,
+    "stop" : 1656233887447,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1656233886870,
+      "stop" : 1656233886871,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94d5f244669845e7",
+      "name" : "log",
+      "source" : "94d5f244669845e7.txt",
+      "type" : "text/plain",
+      "size" : 114
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_nanSheng"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_nanSheng"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MEHKTAM0"
+  }, {
+    "name" : "thread",
+    "value" : "9908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_nanSheng"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseInfo",
+    "value" : "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}"
+  }, {
+    "name" : "config",
+    "value" : "{'base': {'base_url': 'http://www.nanshengbbs.top'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a207cc7936d3648.json",
+  "parameterValues" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "{'base': {'base_url': 'http://www.nanshengbbs.top'}}" ]
+}
