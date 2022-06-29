@@ -7,7 +7,7 @@
       "name" : "TypeError: string indices must be integers",
       "children" : [ {
         "name" : "test_userLogin[base-caseInfo0]",
-        "uid" : "d44abb8fa89afd6f",
+        "uid" : "3547df6300f15541",
         "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ "{'name': '用户名和密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 123456789}, 'validate': {'code': 200, 'msg': '登录成功', 'data': None}}", "'base'" ]
       }, {
         "name" : "test_userLogin[base-caseInfo1]",
-        "uid" : "3966036ecf1e3d33",
+        "uid" : "5a3d3c71541935d2",
         "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
         "parameters" : [ "{'name': '用户名错误，密码正确', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one3', 'password': 123456789}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
       }, {
         "name" : "test_userLogin[base-caseInfo2]",
-        "uid" : "4beb2ce25bfb6b5f",
+        "uid" : "a37e323f269c2b2b",
         "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
         "parameters" : [ "{'name': '用户名正确，密码错误', 'url': '/api/rest/nanshengbbs/v3.0/user/getLogin', 'method': 'post', 'data': {'name': 'one1', 'password': 12345678}, 'validate': {'code': 404, 'msg': '登录失败', 'data': None}}", "'base'" ]
       }, {
         "name" : "test_getUserId[base]",
-        "uid" : "e5d5bb9982293b0c",
+        "uid" : "9adda38d110e5d3e",
         "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
         "status" : "broken",
         "time" : {
@@ -75,7 +75,7 @@
         "parameters" : [ "'base'" ]
       }, {
         "name" : "test_getArticleId[base]",
-        "uid" : "4d769b5691f538bd",
+        "uid" : "69776ea5244b05fa",
         "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
         "status" : "broken",
         "time" : {
@@ -96,7 +96,7 @@
       "name" : "TypeError: 'NoneType' object is not subscriptable",
       "children" : [ {
         "name" : "test_userCenter[base]",
-        "uid" : "5e17c0aa8201b786",
+        "uid" : "1c8b675fe6b95c44",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {

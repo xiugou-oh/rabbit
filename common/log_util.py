@@ -19,5 +19,5 @@ logger.addHandler(sl)
 
 # 清空log文件
 def clear_log():
-    with open(os.getcwd() + './logs/nanSheng.log', mode='w', encoding='utf-8') as f:
+    with open(os.getcwd() + '/logs/nanSheng.log', mode='w', encoding='utf-8') as f:
         f.truncate()

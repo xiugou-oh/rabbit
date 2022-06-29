@@ -1,0 +1,1 @@
+[32mINFO    [0m nanSheng:test_nanSheng.py:23 用户名和密码正确:{"code":200,"msg":"登录成功","data":null}

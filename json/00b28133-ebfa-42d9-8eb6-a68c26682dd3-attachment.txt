@@ -1,0 +1,1 @@
+[32mINFO    [0m nanSheng:test_nanSheng.py:35 获取到用户id：20211108172459-f13d81d9383545dab9d46263daee470e

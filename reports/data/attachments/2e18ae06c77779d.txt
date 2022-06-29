@@ -1,0 +1,1 @@
+[32mINFO    [0m nanSheng:test_nanSheng.py:54 获取到帖子id：20220613231256-1695f3a50ae14ada8d3e50819f4419c5
