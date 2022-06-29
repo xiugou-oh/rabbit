@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# encoding: utf-8
-=======
 # -*- coding: utf-8 -*-
 
->>>>>>> 28a51932696a24c55d42350ebf35660d07b34c1f
 import os
 from time import sleep
 
